@@ -5,28 +5,29 @@ int main(){
 	char dest[30]="good!";//12
 	char source[20]="hello world!";//13
 	int comp = 0;
-
+//å¦ï¼Œå¯¹strlen å‡½æ•°çš„æµ‹è¯•å•å¼€ä¸€ç¯‡ï¼Œè§strlen
 /*
-	//¶Ôstrcpyº¯ÊıµÄ²âÊÔ£»
+	//å¯¹strcpyå‡½æ•°çš„æµ‹è¯•ï¼›
 	strcpy(dest,source);
-	printf("¸´ÖÆ¹ıºóµÄdestÊÇ£º\n%s\n",dest);
+	printf("å¤åˆ¶è¿‡åçš„destæ˜¯ï¼š\n%s\n",dest);
 */
 /*
-	//¶Ôstrcatº¯ÊıµÄ²âÊÔ
+	//å¯¹strcatå‡½æ•°çš„æµ‹è¯•
 	strcat(dest,source);
-	printf("Á¬½Ósource×Ö·û´®¹ıºóµÄdestÊÇ£º\n%s\n",dest);
+	printf("è¿æ¥sourceå­—ç¬¦ä¸²è¿‡åçš„destæ˜¯ï¼š\n%s\n",dest);
 */
 
-	//¶Ôstrcmpº¯ÊıµÄ²âÊÔ
+	//å¯¹strcmpå‡½æ•°çš„æµ‹è¯•
 	comp = strcmp(dest,source);
-	printf("±È½Ï½á¹ûÊÇ£º%d\n",comp);
+	printf("æ¯”è¾ƒç»“æœæ˜¯ï¼š%d\n",comp);
+	printf("\n");
 
 /*
-	//¶ÔstruprºÍstrlwrº¯ÊıµÄ²âÊÔ
+	//å¯¹struprå’Œstrlwrå‡½æ•°çš„æµ‹è¯•
 	strupr(dest);
-	printf("´óĞ´×ª»»ºóµÄdestÊÇ£º\n%s\n",dest);
+	printf("å¤§å†™è½¬æ¢åçš„destæ˜¯ï¼š\n%s\n",dest);
 	strlwr(dest);
-	printf("Ğ¡Ğ´×ª»»ºóµÄdestÊÇ£º\n%s\n",dest);
+	printf("å°å†™è½¬æ¢åçš„destæ˜¯ï¼š\n%s\n",dest);
 */
 
 	system("pause");
